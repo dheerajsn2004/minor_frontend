@@ -1,0 +1,43 @@
+.typing-effect {
+    font-size: 12rem;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    animation: typing 3s steps(30), blink 0.7s step-end infinite;
+    border-right: 2px solid white;
+    margin-left: 5%;
+  }
+  .typing-effect1 {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    animation: typing1 6s steps(30), blink 0.7s step-end infinite;
+    border-right: 2px solid white;
+    margin-left: 10%;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes typing1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: transparent;
+    }
+    to {
+      border-color: white;
+    }
+  }
+  
